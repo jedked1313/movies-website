@@ -1,0 +1,127 @@
+body{
+	font-family: 'Microsoft YaHei UI Light' ,sans-serif;
+	font-weight: bold;
+	background-color: #a4c4b6;
+}
+a{
+	text-decoration: none;
+	color: #777777;
+	transition: 0.2s;
+}
+a:hover{
+	color:green;
+	text-decoration: none;
+}
+.container{
+	margin: 20px auto;
+	padding: 0;
+	max-width: 1100px;
+	max-height: 700px;
+	background-color: white;
+	border-radius: 20px;
+	box-shadow: -20px 20px 20px rgba(0,0,0,0.3);
+}
+.container_small{
+	width: 400px;
+	padding: 25px 0 0 0;
+	float: right;
+	margin: 0 10%;
+}
+h3{
+	font-size: 2rem;
+	padding: 0 0 15px 0;
+}
+label{
+	display: block;
+	margin-top: 20px;
+}
+input:nth-of-type(1),
+input:nth-of-type(2){
+	width: 400px;
+	height: 30px;
+	border: none;
+	background-color: white;
+	border-bottom: solid 2px silver;
+	outline: none;
+	font-size: 20px;
+	font-weight: bold;
+}
+input:nth-of-type(1):focus,
+input:nth-of-type(2):focus{
+	border-bottom: solid 2px blue;
+	transition: 0.2s;
+}
+.slider {
+	width: 475px !important;
+	height:600px !important ;
+}
+.carousel-inner {
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+.image img{
+	height: 600px;
+}
+.right{
+	float: right;
+	margin-top: 5px;
+}
+.Sign_in{
+	width: 220px;
+	font-size: 18px;
+	margin: 25px 0 0 90px;
+	padding: 20px;
+	line-height: 5px;
+	border-radius: 25px;
+	background-color: #777777;
+	color: white;
+	transition: 0.2s;
+	border:solid 1px black;
+	cursor: pointer;
+}
+.Sign_in:hover{
+	background-color: silver;
+	color: white;
+}
+.line-center{
+	margin: 0;
+	padding: 0 10px;
+	background:#fff;
+	display: inline-block;
+}
+h2{
+	text-align: center;
+	position: relative;
+	z-index: 2;
+	margin-top: 50px;
+	font-size: 20px;
+}
+h2:after{
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	border-top: solid 2px silver;
+	z-index: -1;
+}
+.google_icon{
+	width: 250px;
+	margin-left: 75px;
+}
+.google_icon a{
+	font-size:20px;
+	text-align: center;
+	margin-left: 5px;
+}
+.google_icon img{
+	width:55px;
+	height:55px;
+}
+.google_icon a,img{
+	vertical-align: middle;
+}
+.sign_new{
+	margin-left: 45px;
+	margin-top: 20px;
+}

@@ -1,0 +1,9 @@
+How to use
+1-Create database named "egybast" and import egybest sql file on it
+2-Create account by register page
+3-Login with your registered account
+4-At the footer section on home page there will be user operations (reset password, update info, delete account, users list)
+and movies operations (add movie, view movies list)
+5-To add a new movie, you must transfer the movie file in following dircation [pages/videos] and movie image to [pages/images]
+6-Add the movie with add movie page
+7-The movies will be shown on the home page

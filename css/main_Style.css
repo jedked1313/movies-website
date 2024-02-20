@@ -1,0 +1,240 @@
+/* The Main Rules*/
+html {
+	scroll-behavior: smooth;
+}
+body{
+	background-color: #3aafa9 ;
+	font-family: 'Trebuchet MS', sans-serif;
+}
+.container{
+	width: 1300px;
+	margin: auto;
+}
+.container_small{
+	width: 1100px;
+	margin: 0 auto ;
+	padding-left: auto auto;
+}
+a{
+	text-decoration: none !important;
+}
+/* The Main Rules*/
+
+/* Start Header*/
+.navbar{
+	background-color: #17252a;
+	color: #06c;
+	border-bottom: solid 2px #a8d;
+	font-family:bell mt;
+	min-width: 1300px;
+	max-width: 100%;
+	height: 60px;
+	font-weight: bold;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.navbar h2{
+	float: left;
+	font-size: 40px;
+	margin: -5px 0 0px -50px;
+	color: #06c;
+	vertical-align: middle;
+}
+.navbar h2 span{
+	color:  #ff4500;
+	margin-left: 1px;
+	margin: 0 0 0 0;
+}
+.navbar ul {
+	list-style: none;
+	font-size: 20px;
+	margin: 10px 0 0 0px; /*Items Up*/
+	text-decoration: none;
+}
+.navbar ul li{
+	margin-left: 25px;
+	float: left;
+	padding: 10px;
+	transition: 0.3s all ease-in-out;
+}
+.navbar ul li a{
+	transition: 0.3s all ease-in-out;
+}
+.navbar ul li:nth-of-type(2),
+.navbar ul li:nth-of-type(3),
+.navbar ul li:nth-of-type(4){
+	padding: 10px 5px 5px 5px;
+}
+.navbar ul li:hover:nth-of-type(2),
+.navbar ul li:hover:nth-of-type(3),
+.navbar ul li:hover:nth-of-type(4){
+	border-bottom: 2px solid red;
+	border-radius: 3% ;
+}
+.navbar .Home {
+	background-color: #3aafa9;
+	border-radius: 5px;
+	padding: 8px;
+	color: white;
+	margin-right: 20px;
+}
+.navbar .Home:hover{
+	background-color: #f1faee;
+	color: #06c;
+}
+.navbar ul input {
+	border-color: #2b7a78;
+	border-radius: 5px;
+	outline: none;
+	width: 400px;
+	margin: -5px 0 0 0;
+}
+.navbar img{
+	position: absolute;
+}
+.navbar ul input,img{
+	vertical-align: middle;
+}
+.navbar ul input:focus{
+	border-color: #06c;
+	box-shadow: 0 0 5px 0;
+	transition: 0.5s;
+}
+.navbar a img{
+	width: 25px;
+	padding: 0 0 0 5px;
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: #4169e1;
+}
+/* end Header*/
+
+/* Start of Content*/
+.options{
+	width: 100%;
+    padding: 0;
+	margin: 15px 0px 15px -30px;
+	display: flex;
+	justify-content: center;
+}
+.options li {
+	background-color: #f1faee;
+	font-size: 25px;
+	list-style: none;
+	border: solid 2px;
+	border-radius: 10px;
+	margin-left: 20px;
+	padding: 8px;
+}
+.options a li{
+	text-decoration: none;
+	color :#474747 ;
+	transition: 0.3s;
+	margin: 0 30px;
+}
+.options a li:hover{
+	background-color: #17252a;
+	color: #06c;
+	border: solid 2px;
+}
+.table{
+	text-align: center;
+	font-size: 18px;
+	padding: 0;
+	margin: 0;
+}
+.table a{
+	text-decoration: none;
+	color: black;
+}
+.table .data{
+	background-color: #2b7a78;
+	font-weight: bold;
+	margin: 10px 40px 0px 0px;
+    padding: 6px;
+	max-width: 235px !important;
+	border-radius: 5px;
+	border: solid 2px #17252a;
+}
+.table .data img{
+	border:solid 1px black;
+	border-radius: 5px;
+	transition: 0.2s;
+}
+.table .data img:hover{
+	transform: translate(7px,-7px);
+}
+.table .data img:hover{
+	box-shadow: -5px 5px 5px 0;
+}
+/* End of Content*/
+
+/* Start of Footer*/
+footer{
+	overflow: hidden;
+	height: auto;
+	max-width: 100%;
+    min-width: 1300px;
+    min-height: 250px;
+    background-image: url(../Images/about-bg.png);
+    background-repeat: no-repeat;
+}
+.footer ul{
+	list-style: none;
+	float: left;
+	margin-left: 30px;
+	margin-top: 15px;
+}
+.footer ul li {
+	color: #17252a;
+	margin-top: 3px;
+	overflow: hidden;
+	display: table;
+}
+
+.footer ul a{
+	text-decoration: none;
+	color: #17252a;
+}
+.footer ul a:hover{
+	color: white;
+}
+.footer ul li img{
+	width: 40px;
+	height: 40px;
+	border-radius: 25px;
+	margin-right: 10px;
+}
+.footer ul img{
+	vertical-align: middle;
+}
+.footer_th2{
+    min-width: 1300px;
+	background-color: #20c997;
+	height: 50px;
+	padding-top: 15px;
+}
+.footer_th2 p{
+	margin-left: 140px;
+	font-size: 20px;
+	display: inline;
+}
+.footer_th2 p input{
+	border-radius: 20px;
+	background-color: #3aafa9;
+	border: solid 2px #17252a;
+	padding: 0;
+	color: #17252a;
+	outline: none;
+	margin-left: 50px;
+}
+.footer_th2 img{
+	width: 20px;
+	height:20px;
+	border: solid 2px none;
+}
+.footer_th2 p input, img{
+	vertical-align: middle;
+}
+/* End of Footer*/
